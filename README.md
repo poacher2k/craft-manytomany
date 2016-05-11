@@ -1,3 +1,6 @@
+### To relate entries in same section
+Follow the instructions in Usage, but after creating the field of "Many to Many" type, edit it, and set itself as the associated field.
+
 #Many to Many#
 
 ##Description##
