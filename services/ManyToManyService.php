@@ -20,7 +20,7 @@ class ManyToManyService extends BaseApplicationComponent
         $criteria->section = $section;
         $criteria->limit   = null;
         $criteria->relatedTo = array(
-            'targetElement' => $element,
+            'element' => $element,
             'field'         => $field
         );
         $elements = craft()->elements->findElements($criteria);
